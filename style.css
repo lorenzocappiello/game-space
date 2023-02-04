@@ -1,0 +1,228 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+  
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+  
+body {
+  line-height: 1.5;
+  height: 80%; 
+}
+
+/* Background Image */
+
+html { 
+  background: url('https://cdn.mos.cms.futurecdn.net/9UmWCbyxpKaEGXjwFG7dXo.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+/* Hero Section */
+
+.hero {
+  margin-top: 96px; 
+  margin-bottom: -48px; 
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+      margin-top: 72px; 
+      margin-bottom: -36px; 
+  }
+}
+
+.titolo {
+  font-family: 'Games', sans-serif;    
+  color: white;                              
+  font-size: 216px; 
+  line-height: 172px;
+  text-align: center;
+  margin-top: -24px; 
+}
+
+@media screen and (max-width: 768px) {
+  .titolo {
+      font-size: 132px; 
+      line-height: 108px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+  .titolo {
+    font-size: 168px; 
+    line-height: 140px;
+    margin-top: -48px; 
+    margin-bottom: -48px; 
+  }
+}
+
+
+/* Game Section */ 
+
+.game-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1140px) {
+  .game-section {
+    flex-direction: column;
+  }
+}
+
+/* Show Modal */ 
+  
+.show-modal-1, .show-modal-2, .show-modal-3 {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  width: 320px; 
+}
+
+@media screen and (max-width: 1140px) {
+  .show-modal-1, .show-modal-2, .show-modal-3 {
+    margin-bottom: -36px; 
+  }
+}
+
+/* Close Modal */ 
+  
+.close-modal-1, .close-modal-2, .close-modal-3 {
+  font-family: 'SF Pro Display', sans-serif;
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Layout */
+  
+h1 {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+  
+p {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 1.8rem;
+}
+  
+/* Modal Effect */
+.hidden {
+  display: none;
+}
+  
+.modal-1, .modal-2, .modal-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-1, .modal-2, .modal-3 {
+    width: 70%; 
+    height: 57%; 
+  }
+}
+  
+.overlay-1, .overlay-2, .overlay-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/* Text Game */ 
+
+.title-game {
+  font-size: 20px; 
+}
+
+.text-game {
+  font-size: 16px; 
+}
+
+.play-game {
+  font-size: 20px; 
+  margin-top: 24px; 
+}
+
+/* Social Network */
+
+.social-networks {
+  font-size: 24px; 
+  text-align: center;
+}
+
+@media screen and (max-width: 1140px) {
+  .social-networks {
+    margin-top: 72px; 
+    margin-bottom: -144px; 
+  }
+}
+
+.fa {
+  margin-right: 12px; 
+  border: 1px solid white; 
+  padding: 20px 22px; 
+  border-radius: 40px;
+  text-decoration: none;
+  color: white; 
+}
+
+.fa:hover {
+  background-color: yellow;
+  border: 1px solid #070514; 
+  color: #070514;
+}
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 12px; 
+  font-family: 'SF Pro Display', sans-serif;
+}
