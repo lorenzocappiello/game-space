@@ -53,8 +53,8 @@ html {
 
 @media screen and (max-width: 768px) {
   .titolo {
-      font-size: 132px; 
-      line-height: 108px;
+      font-size: 108px; 
+      line-height: 84px;
   }
 }
 
