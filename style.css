@@ -20,7 +20,7 @@ body {
 /* Background Image */
 
 html { 
-  background: url('https://i.pinimg.com/originals/18/89/a4/1889a472ed3acdb68ebb3ee010bbf689.gif') no-repeat center center fixed; 
+  background: url('https://i.ytimg.com/vi/8wLwxmjrZj8/maxresdefault.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -86,8 +86,8 @@ html {
   
 .show-modal-1, .show-modal-2, .show-modal-3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 400;
   padding: 1.75rem 3.5rem;
   margin: 5rem 2rem;
   border: none;
