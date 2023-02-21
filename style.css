@@ -20,7 +20,7 @@ body {
 /* Background Image */
 
 html { 
-  background: url('https://static.vecteezy.com/system/resources/previews/007/836/385/original/galaxy-landscape-with-planet-mars-and-alien-in-space-flying-astronaut-and-cosmic-rocket-ufo-in-a-spacesuit-illustration-in-cartoon-style-background-for-space-game-interface-vector.jpg') no-repeat center center fixed; 
+  background: url('https://i.pinimg.com/originals/18/89/a4/1889a472ed3acdb68ebb3ee010bbf689.gif') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,8 +53,8 @@ html {
 
 @media screen and (max-width: 768px) {
   .titolo {
-      font-size: 108px; 
-      line-height: 84px;
+      font-size: 96px; 
+      line-height: 72px;
   }
 }
 
