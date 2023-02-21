@@ -56,9 +56,6 @@ html {
       font-size: 72px; 
       line-height: 60px;
   }
-  .play-game {
-    font-size: 16px; 
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1140px) {
@@ -193,6 +190,12 @@ p {
 .play-game {
   font-size: 20px; 
   margin-top: 24px; 
+}
+
+@media screen and (max-width: 768px) {
+  .play-game {
+    font-size: 16px; 
+  }
 }
 
 /* Social Network */
