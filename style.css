@@ -56,6 +56,9 @@ html {
       font-size: 72px; 
       line-height: 60px;
   }
+  .play-game {
+    font-size: 16px; 
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1140px) {
