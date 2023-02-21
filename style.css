@@ -178,6 +178,15 @@ p {
   font-size: 16px; 
 }
 
+@media screen and (max-width: 768px) {
+  .title-game {
+    font-size: 16px; 
+  }
+  .text-game {
+      font-size: 12px; 
+  }
+}
+
 .play-game {
   font-size: 20px; 
   margin-top: 24px; 
