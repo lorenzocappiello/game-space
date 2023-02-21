@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/games');
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.cdnfonts.com/css/chopsic');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
 
 * {
   margin: 0;
@@ -43,7 +43,7 @@ html {
 }
 
 .titolo {
-  font-family: 'Games', sans-serif;    
+  font-family: 'Chopsic', sans-serif;                                                
   color: white;                              
   font-size: 216px; 
   line-height: 172px;
@@ -85,7 +85,7 @@ html {
 /* Show Modal */ 
   
 .show-modal-1, .show-modal-2, .show-modal-3 {
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.75rem 3.5rem;
@@ -106,7 +106,7 @@ html {
 /* Close Modal */ 
   
 .close-modal-1, .close-modal-2, .close-modal-3 {
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: absolute;
   top: 1.2rem;
   right: 2rem;
@@ -120,13 +120,15 @@ html {
 /* Layout */
   
 h1 {
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
   
 p {
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; 
   font-size: 1.8rem;
 }
   
@@ -224,5 +226,6 @@ p {
 
 .footer-text {
   font-size: 12px; 
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; 
 }
