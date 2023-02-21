@@ -153,7 +153,7 @@ p {
 @media screen and (max-width: 768px) {
   .modal-1, .modal-2, .modal-3 {
     width: 75%; 
-    height: 75%; 
+    height: 60%; 
   }
 }
   
