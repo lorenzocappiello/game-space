@@ -222,8 +222,8 @@ p {
 }
 
 .fa:hover {
-  background-color: #DE81EF;
-  border: 1px solid #070514; 
+  background-color: white;
+  border: 1px solid white; 
   color: #070514;
 }
 
