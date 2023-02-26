@@ -43,7 +43,7 @@ html {
 
 @media screen and (min-width: 768px) and (max-width: 1140px) {
   .hero {
-    margin-top: 48px; 
+    margin-top: 84px; 
     margin-bottom: -36px; 
   }
 }
