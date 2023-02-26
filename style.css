@@ -20,12 +20,8 @@ body {
 /* Background Image */
 
 html { 
-  background: url('https://i.ytimg.com/vi/8wLwxmjrZj8/maxresdefault.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  opacity: 0.9;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 }
 
 /* Hero Section */
