@@ -41,6 +41,14 @@ html {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+  .hero {
+    margin-top: 48px; 
+    margin-bottom: -36px; 
+  }
+}
+
+
 .titolo {
   font-family: 'Chopsic', sans-serif;                                                
   color: white;                              
@@ -61,7 +69,6 @@ html {
   .titolo {
     font-size: 116px; 
     line-height: 88px;
-    margin-top: -12px; 
     margin-bottom: 24px; 
   }
 }
