@@ -61,6 +61,7 @@ html {
   .titolo {
     font-size: 116px; 
     line-height: 88px;
+    margin-top: -12px; 
     margin-bottom: 24px; 
   }
 }
