@@ -19,8 +19,7 @@ body {
 /* Background Image */
 
 html { 
-  background-color: #FA8BFF;
-  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  background-image: linear-gradient( 99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8% );
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
