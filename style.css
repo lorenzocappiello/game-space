@@ -19,7 +19,8 @@ body {
 /* Background Image */
 
 html { 
-  background-image: linear-gradient( 99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8% );
+  background: linear-gradient(114.95deg, rgba(235, 0, 255, 0.5) 0%, rgba(0, 0, 0, 0) 38.87%), linear-gradient(180deg, #004B5B 0%, #FFA7A7 100%), linear-gradient(244.35deg, #FFB26A 0%, #3676B1 50.58%, #00A3FF 100%), linear-gradient(244.35deg, #FFFFFF 0%, #007089 49.48%, #FF005C 100%), radial-gradient(100% 233.99% at 0% 100%, #6D3B00 0%, #8FFF00 100%), linear-gradient(307.27deg, #219D87 0.37%, #93C32E 50.19%, #2800C6 100%), radial-gradient(100% 140% at 100% 0%, #FF00C7 0%, #006C7A 49.48%, #760000 100%);
+  background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
