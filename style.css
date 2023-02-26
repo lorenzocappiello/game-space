@@ -43,11 +43,10 @@ html {
 
 @media screen and (min-width: 768px) and (max-width: 1140px) {
   .hero {
-    margin-top: 84px; 
+    margin-top: 120px; 
     margin-bottom: -36px; 
   }
 }
-
 
 .titolo {
   font-family: 'Chopsic', sans-serif;                                                
